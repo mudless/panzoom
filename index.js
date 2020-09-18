@@ -139,6 +139,14 @@ function createPanZoom(domElement, options) {
   };
 
   eventify(api);
+  
+  var initialX = typeof options.initialX === 'number' ? options.initialX : transform.x;
+  var initialY = typeof options.initialY === 'number' ? options.initialY : transform.y;
+  var initialZoom = typeof options.initialZoom === 'number' ? options.initialZoom : transform.scale;
+
+  if(initialX != transform.x || initialY != transform.y || initialZoom != transform.Scale){
+    zoomAbs(initialX, initialY, initialZoom);
+  }
 
   return api;
 
@@ -380,29 +388,20 @@ function createPanZoom(domElement, options) {
     var newScale = transform.scale * ratio;
 
     if (newScale < minZoom) {
-      if (transform.scale === minZoom) return;
-
-      ratio = minZoom / transform.scale;
+      newScale = minZoom;
+      ratio = newScale/transform.scale;
     }
     if (newScale > maxZoom) {
-      if (transform.scale === maxZoom) return;
-
-      ratio = maxZoom / transform.scale;
+      newScale = maxZoom;
+      ratio = newScale/transform.scale;
     }
 
     var size = transformToScreen(clientX, clientY);
-
     transform.x = size.x - ratio * (size.x - transform.x);
     transform.y = size.y - ratio * (size.y - transform.y);
+    transform.scale = newScale;
 
-    // TODO: https://github.com/anvaka/panzoom/issues/112
-    if (bounds && boundsPadding === 1 && minZoom === 1) {
-      transform.scale *= ratio;
-      keepTransformInsideBounds();
-    } else {
-      var transformAdjusted = keepTransformInsideBounds();
-      if (!transformAdjusted) transform.scale *= ratio;
-    }
+    keepTransformInsideBounds();
 
     triggerEvent('zoom');
 
@@ -1035,3 +1034,4 @@ function autoRun() {
 }
 
 autoRun();
+	

@@ -1,0 +1,2031 @@
+[33mcommit d00b9487ba0a55bd2db232143f62dae77ca77122[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Mariusz Jamro <mariusz.jamro@gmail.com>
+Date:   Sat Sep 19 00:09:30 2020 +0200
+
+    Fix bounds handling
+
+[33mcommit 6e450012d6631e74ff889899bc5d1b696173c958[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Sep 1 20:13:42 2020 -0700
+
+    better wording
+
+[33mcommit c9720b2351ec7a7cda290479edaadbc3c4ea53fd[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jul 25 14:00:54 2020 -0700
+
+    removed unused property
+    
+    realPinch is on by default
+
+[33mcommit fa46ad96410db28b3d7c29d855f90c2376e2a5c7[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jul 23 20:39:43 2020 -0700
+
+    updated dependencies
+
+[33mcommit ecc7c9d6abb64e1778a7ced566144aa6a467fcb9[m[33m ([m[1;33mtag: v9.2.5[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Jun 3 21:27:36 2020 -0700
+
+    9.2.5
+
+[33mcommit 197386c618c7ec135f96c8ec13c4ed34955fd7fd[m
+Merge: 6dbf7cd 4e7f087
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Wed Jun 3 21:26:54 2020 -0700
+
+    Merge pull request #197 from jonathanlurie/master
+    
+    FIX Firefox getCTM returning null
+
+[33mcommit 4e7f08730782d4ef0de0282ba1d21554b0c0f803[m
+Author: jonathanlurie <lurie.jo@gmail.com>
+Date:   Wed Jun 3 09:58:55 2020 +0200
+
+    FIX Firefox getCTM returning null
+
+[33mcommit 6dbf7cdd3f6bcb638609a49cec4c193414813169[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 17 23:41:15 2020 -0700
+
+    Dropped `global`
+    
+    Fixes https://github.com/anvaka/panzoom/issues/151
+
+[33mcommit 66cc60aad5048e911decf7c4d81b0371fda75cd3[m[33m ([m[1;33mtag: v9.2.4[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 17 22:31:00 2020 -0700
+
+    9.2.4
+
+[33mcommit 00075e6b666fbb5d4fc76cdface360c2760e1a76[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 17 22:30:47 2020 -0700
+
+    Updated library links
+
+[33mcommit 439c613c1918a8a95c09469ed9a422dc3881decb[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 17 22:30:29 2020 -0700
+
+    Fixing edge case with pause/resume on touch device
+    
+    Based on https://github.com/anvaka/panzoom/issues/188 -
+
+[33mcommit 643908dc22cdb0c14dd76c3f6117961ed7190fa2[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 17 22:16:16 2020 -0700
+
+    Updated dependencies
+
+[33mcommit 30be84b5319ba30eb07c6ae6bc9be35a16b41866[m[33m ([m[1;33mtag: v9.2.3[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 15 00:58:28 2020 -0700
+
+    9.2.3
+
+[33mcommit c77f2aeab2466783d66944d3590283d59d856691[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 15 00:26:02 2020 -0700
+
+    Added missing types
+
+[33mcommit 0440d403af90a777892723b802d53b8aa5cd7217[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Apr 14 22:04:57 2020 -0700
+
+    Added a few missing definitions
+
+[33mcommit c52e8e6cbb614ae57f11d4e28ebcb9cf799e872f[m[33m ([m[1;33mtag: v9.2.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 13 01:02:01 2020 -0700
+
+    9.2.2
+
+[33mcommit 4c7f794ab1b065a0e5d8c8e1ebc843ad0487ccca[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 13 01:01:53 2020 -0700
+
+    Added zoom speed to type definition
+
+[33mcommit d19ab145814f32a91b1bd734f836497e022cd678[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Mar 5 16:17:01 2020 -0800
+
+    added note about getTransform()
+
+[33mcommit 7e2b34ae928d30c70352c87eb6f9a0f8e9bc2efb[m[33m ([m[1;33mtag: v9.2.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 15 08:27:23 2020 -0800
+
+    9.2.1
+
+[33mcommit 588075cb1a93ef9681019075489da3ab512c73d2[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 15 08:27:09 2020 -0800
+
+    respect custom controller's ctm on touch end
+
+[33mcommit f440127e616d65287b2d7bd052ce6725c1b72599[m[33m ([m[1;33mtag: v9.2.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 8 08:34:12 2020 -0800
+
+    9.2.0
+
+[33mcommit 54a772a2fd380b528596080463ee7af23eca96c5[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 8 08:33:43 2020 -0800
+
+    rebuild
+
+[33mcommit 0c1946d04dc6528b28a914114e96ddaaaf9a5b05[m
+Merge: b370e13 1b5aaad
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 8 08:32:43 2020 -0800
+
+    Merge pull request #168 from TrinTragula/master
+    
+    Public setter for minZoom and maxZoom properties
+
+[33mcommit 1b5aaadf0b90e7861a961b834ce21e9c8505783c[m
+Author: TrinTragula <danielescarinci42@gmail.com>
+Date:   Sat Feb 8 14:25:08 2020 +0100
+
+    Public zetter for minZoom and maxZoom
+    
+    Added a public setter for minZoom and maxZoom properties
+
+[33mcommit b370e13151d46de0773c0db3b69e7c8e77c24493[m[33m ([m[1;33mtag: v9.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Jan 21 00:03:36 2020 -0800
+
+    9.1.0
+
+[33mcommit 3456a0ff88626e195e7dbe064ab99126155d2053[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Jan 21 00:03:20 2020 -0800
+
+    Allow to adjust zoom speed
+
+[33mcommit a7955673d3c8316315d2d10477fe780151349f52[m[33m ([m[1;33mtag: v9.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jan 18 19:34:10 2020 -0800
+
+    9.0.0
+
+[33mcommit 46d20ca99266e2de175ad9c892e83ca830ddb141[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jan 18 19:33:59 2020 -0800
+
+    Account for delta speed during mouse wheel
+    
+    Makes zooming experience feel more natural on touch devices as well as faster on windows machines with actual mouse wheel
+
+[33mcommit a8bbe2b3b2f5f4576b3e41c04b0ab6a837305ef6[m[33m ([m[1;33mtag: v8.7.5[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jan 4 08:43:40 2020 -0800
+
+    8.7.5
+
+[33mcommit 31761dcaaabd93aa6c22b0d8ac40552b88b00f58[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jan 4 08:43:32 2020 -0800
+
+    Added `disableKeyboardInteraction` definition
+
+[33mcommit 6309a7e654b6d5d29a7b093d79368df4eb2baad5[m[33m ([m[1;33mtag: v8.7.4[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 20 21:50:22 2019 -0800
+
+    8.7.4
+
+[33mcommit 90feda78ce8652434340fe6810a1ceb19cfc8685[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 20 21:50:17 2019 -0800
+
+    rebuild
+
+[33mcommit 6e375d49f3a7238d633090deeeab888db0f46929[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 20 21:49:06 2019 -0800
+
+    patching firefox svg transformation matrix
+    
+    Turns out getCTM() does not work on parent SVG element. I'm using getScreenCTM() as a fallback, which can potentially give incorrect results when svg container is not matching viewport or has a viewBox. Still better than failing.
+    
+    Need to find a better solution
+
+[33mcommit d4bcbda2a02ff0b209a7f910188a125df0bac446[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 13 07:41:57 2019 -0800
+
+    update fiddle link
+
+[33mcommit 3e690eb5086554ebcb60e1dd61729c013ce5ebec[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 12 21:16:33 2019 -0800
+
+    updated versions
+
+[33mcommit ffd7ad1d619198cc0590225b0361a0456e158ba5[m[33m ([m[1;33mtag: v8.7.3[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 12 21:15:50 2019 -0800
+
+    8.7.3
+
+[33mcommit 49be4a1bd6361598b79f29fe99adc2c125d93678[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 12 21:15:37 2019 -0800
+
+    Fixed screen transformation for svg
+    
+    I used incorrect transformation matrix, and when svg was not aligned with origin of the screen, the pan/zoom was picking wrong transforms
+
+[33mcommit 6205e986d5379c9bcb045f63d71dbc56493946a5[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 12 21:14:40 2019 -0800
+
+    changed the title
+
+[33mcommit 436258d9428f63508817d776d421c60440b43903[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 12 20:10:04 2019 -0800
+
+    explicitly marking events as not passive
+    
+    Since we can call 'prventDefault' on those events, no need to set expectations that
+    they can be passive
+
+[33mcommit 3c5734f9a0ab0958822c9f639e5ede82e6815c5e[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Dec 11 00:06:57 2019 -0800
+
+    updated links
+
+[33mcommit e082555a7c9ab8ce81a60c1068c2d858d7c98448[m[33m ([m[1;33mtag: v8.7.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Dec 10 21:32:37 2019 -0800
+
+    8.7.2
+
+[33mcommit e08ec1b99baffc3f1cdf96780e426892af9d585e[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Dec 10 21:32:25 2019 -0800
+
+    Fixed center point of pinch zoom
+    
+    When DOM container is not placed at (0,0) coordinate,
+    pinch zoom was having incorrect center of transform.
+    
+    This change fixes it.
+    
+    issue: https://github.com/anvaka/panzoom/issues/67
+
+[33mcommit ebf72bea92cf158a508e50519e1f8375deefb98c[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Dec 10 20:55:01 2019 -0800
+
+    added html tag
+
+[33mcommit 359230302e2ca1585a685313da59bb45ec1af258[m[33m ([m[1;33mtag: v8.7.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Dec 9 21:18:46 2019 -0800
+
+    8.7.1
+
+[33mcommit 4c56dc76f04580c926c2bc94230737c638c40047[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Dec 9 21:15:23 2019 -0800
+
+    Release text selection interceptor when paused
+    
+    text selection interceptor is used to prevent the browser
+    from responsding to "dragstart" and "dragend" events during
+    panning.
+    
+    Normally interceptor is turned on when panning is about to
+    start and is turned off when panning is finished.
+    
+    With addition of `pause/resume` API, it is possible to get
+    into state when interceptro is turned on, but never turned off.
+    
+    This change releases the interceptor when we unsubscribe
+    from events.
+    
+    Should fix https://github.com/anvaka/panzoom/issues/68
+
+[33mcommit 67caf21c2f94c7bd37abde3c89beb9d7d04831bd[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Dec 9 21:06:38 2019 -0800
+
+    Refactored how text selection is checked
+    
+    Switched to `null-object` pattern from branching.
+
+[33mcommit 712ea151eddc00410fc9294521787774ff3d5594[m
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Dec 7 17:16:42 2019 -0800
+
+    Version
+
+[33mcommit 0e8d88b99831401a402f585c148e17cec33b8715[m
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 6 17:15:43 2019 -0800
+
+    updated variable name
+
+[33mcommit ed37cb85f8e2ab6c19e5ebaf9a61a1d8752528f6[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Nov 27 21:08:20 2019 -0800
+
+    small clean up
+
+[33mcommit 9f83b0f4964665d6f67bb7228d5e0fba59a5286f[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 26 21:04:21 2019 -0800
+
+    Handle burst panning
+    
+    When user violently thrusts page, we want to catch that as kinetic movement.
+    
+    Simple `setInterval()` has not enough precision, so replaced it with `requestAnimationFrame()`
+
+[33mcommit 94492b7abe333e547d0ddb1a5fb8668a63b7f47a[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Nov 25 20:41:17 2019 -0800
+
+    removed window dependency from kinetic
+
+[33mcommit 1a5e3807ac7cd1b9eb516269876d0c89823e8e91[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 24 10:04:32 2019 -0800
+
+    updated js style
+
+[33mcommit 3354381d367ac5c37db58f75f602dd6268489338[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Nov 23 15:23:50 2019 -0800
+
+    Made consistent styles
+
+[33mcommit c6ccfa01b3609dda1f6735c165970ee89a9b0c0e[m[33m ([m[1;33mtag: v8.7.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 22 19:58:48 2019 -0800
+
+    8.7.0
+
+[33mcommit ac6fe5eab727954b95cd875519e003853eb47ea3[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 22 19:58:36 2019 -0800
+
+    added todo
+
+[33mcommit e5b2c1ae70bbb0bdc20a59d1313816810d3dead1[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 22 19:56:56 2019 -0800
+
+    rebuilt
+
+[33mcommit 5f5fb547bfac35381beffdae01e013274355c22e[m
+Merge: 1767cc2 67e0e75
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 22 19:56:25 2019 -0800
+
+    Merge pull request #141 from EduardoRG/master
+    
+    Added option to filter mousedown
+
+[33mcommit 67e0e7596a39b85d324c64fb02ce94996ec6373c[m
+Merge: 4b10448 1767cc2
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 22 19:56:09 2019 -0800
+
+    Merge branch 'master' into master
+
+[33mcommit 1767cc2d943a7dfc83712251d3ceb56915df1ad3[m
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Thu Nov 21 18:22:00 2019 -0800
+
+    Updated link to unpkg
+
+[33mcommit 0331b70edb6ea6d7daa3857946ffe3dc2ffc137f[m[33m ([m[1;33mtag: v8.6.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Nov 20 20:36:29 2019 -0800
+
+    8.6.2
+
+[33mcommit 7362c0dce88ded85750d1a994f5367eece607341[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Nov 20 20:36:07 2019 -0800
+
+    updated wheel module
+
+[33mcommit 8f51e5992b45ff6141b8f3baa972a99167f8f220[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Nov 18 07:27:16 2019 -0800
+
+    added set/get info for transformOrigin
+
+[33mcommit e74cd5942e55b1f4a36a8b335dd24dcb4ea424cb[m[33m ([m[1;33mtag: v8.6.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:52:59 2019 -0800
+
+    8.6.1
+
+[33mcommit f64511a042ac3411f0f2a3e10b72fef726974c69[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:52:55 2019 -0800
+
+    updated types
+
+[33mcommit 31a382716575b22497843a979d43e4564b2c0a5c[m[33m ([m[1;33mtag: v8.6.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:49:54 2019 -0800
+
+    8.6.0
+
+[33mcommit 8e73c996ea958e2f7ae2ede731231b0d58fe1a07[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:49:47 2019 -0800
+
+    allow clients to get/set transform origin object
+
+[33mcommit 2cce2dede36aab94e77bfd29064244333207ae40[m[33m ([m[1;33mtag: v8.5.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:38:21 2019 -0800
+
+    8.5.0
+
+[33mcommit 08f056312ebbffaae884604a16a13ad669532f9f[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 17 15:36:57 2019 -0800
+
+    Added `transformOrigin`
+    
+    Allow clients to specify where zoom should happen.
+    
+    Inspired by https://github.com/anvaka/panzoom/issues/34
+
+[33mcommit 4b10448a6bb58f63da5161d419cad9b6585b1895[m
+Author: Eduardo <eduardo.ruiz@landbot.io>
+Date:   Sat Nov 9 13:00:02 2019 +0100
+
+    Added option to filter mousedown
+
+[33mcommit 6657ebea314f92617418ba49a083068a17dd3c3a[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 5 20:30:14 2019 -0800
+
+    updated dependencies
+
+[33mcommit 906b0bdaa1f6d6dc152c8da33d8ad0fbfd0bbf0c[m[33m ([m[1;33mtag: v8.4.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Nov 4 20:02:59 2019 -0800
+
+    8.4.1
+
+[33mcommit b8c8bcb6cd06c929a39cdef8101c8e0b78c09c9d[m
+Merge: 460ce19 309b958
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Mon Nov 4 20:02:33 2019 -0800
+
+    Merge pull request #138 from dota2Pro/master
+    
+    Added Bounds in Documentation
+
+[33mcommit 309b9583b5238d612210541a7c7e1d0955e0efaa[m
+Author: Navneet <nkahlon@crosscap.com>
+Date:   Wed Oct 30 17:45:06 2019 -0400
+
+    Added moveTo in Documentation
+
+[33mcommit 6e2cb9f90e02ff2dd76342101699f9f150c57068[m
+Author: Navneet <nkahlon@crosscap.com>
+Date:   Wed Oct 30 17:39:07 2019 -0400
+
+    Added Bounds in Documentation
+
+[33mcommit 460ce195dcc8acc224f441ff04214b2d8d9a94af[m[33m ([m[1;33mtag: v8.4.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Sep 10 08:52:20 2019 -0700
+
+    8.4.0
+
+[33mcommit 47d812af522f537325571e387f14eb1f84592939[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Sep 10 08:51:29 2019 -0700
+
+    rebuild
+
+[33mcommit e29fe626b527c845fc39a318840eb9d6d51d1ff4[m
+Merge: 3ce7b06 46ec554
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Tue Sep 10 08:50:41 2019 -0700
+
+    Merge pull request #121 from graphman65/master
+    
+    Add option to disable text selection prevention
+
+[33mcommit 46ec55483b052f2d7514c52a4c160afc7345aea7[m
+Author: Sébastien Lacoste <contact@graphman.fr>
+Date:   Mon Sep 9 16:28:42 2019 +0200
+
+    Update typing with new naming
+
+[33mcommit efd17017732cbb800393dff01fc6dc2d4b618df8[m
+Author: Sébastien Lacoste <contact@graphman.fr>
+Date:   Mon Sep 9 16:28:13 2019 +0200
+
+    Update naming of text selection option
+
+[33mcommit 3ce7b06dc030e014fa71a02390ad8444ee9c7f0d[m[33m ([m[1;33mtag: v8.3.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Sep 9 07:24:59 2019 -0700
+
+    8.3.0
+
+[33mcommit 3440e6c2708c042fca75df5bf104ebff20104bcf[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Sep 9 07:24:49 2019 -0700
+
+    rebuild
+
+[33mcommit a5c5ff114ca23e701190cace2bdd1b1b88fb2353[m
+Merge: 3d37e4d f11cbde
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Mon Sep 9 07:24:18 2019 -0700
+
+    Merge pull request #131 from TimoKunze/feature-request-smoothZoomToAbs
+    
+    New function smoothZoomAbs that uses an absolute zoom value
+
+[33mcommit f11cbdeaaccfd9717229c1fea12e112fd483d0a6[m
+Author: Timo Kunze <tkunze@compeso.com>
+Date:   Sun Sep 8 22:46:52 2019 +0200
+
+    Renamed smoothZoomToAbs to smoothZoomAbs to better suit the naming of existing functions.
+
+[33mcommit 3d37e4d772f8478e6cf06536c94dea14fbb0f2bf[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Sep 8 07:08:30 2019 -0700
+
+    added zoomend
+
+[33mcommit 3c26dfff10d209e22b413668591e988d9f6f8e8a[m
+Merge: f7b2af3 44a3c85
+Author: Timo Kunze <tkunze@compeso.com>
+Date:   Sun Sep 8 00:19:14 2019 +0200
+
+    Merge branch 'master' of https://github.com/anvaka/panzoom into feature-request-smoothZoomToAbs
+    
+    # Conflicts:
+    #       dist/panzoom.min.js
+
+[33mcommit 44a3c85ba2382fc48f8a9b75ebb600a561779930[m[33m ([m[1;33mtag: v8.2.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Sep 7 11:37:11 2019 -0700
+
+    8.2.0
+
+[33mcommit a9744ad2bc2dcfe0ed8fafc5453868213d6443ff[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Sep 7 11:36:08 2019 -0700
+
+    rebuild with zoomend
+
+[33mcommit b0fe8227683a91bed0514300c774ce93ed47e22e[m
+Merge: deab583 3c9e299
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Sep 7 11:35:39 2019 -0700
+
+    Merge pull request #104 from rbonomo/feature-request-zoomend
+    
+    Add "zoomend" Event
+
+[33mcommit 3c9e299cb64315fb20f6ec89f3009ccdb492c43f[m
+Merge: 48cb5b6 deab583
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Sep 7 11:35:28 2019 -0700
+
+    Merge branch 'master' into feature-request-zoomend
+
+[33mcommit deab58398f6c44c9cfe4a2cce9a7673bae8ac551[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Sep 7 08:52:45 2019 -0700
+
+    updated package lock
+
+[33mcommit f7b2af3c4decdf3de16aefc77e85705756acd410[m
+Author: Timo Kunze <tkunze@compeso.com>
+Date:   Mon Sep 2 14:24:10 2019 +0200
+
+    New function smoothZoomToAbs that uses an absolute zoom value instead of a relative one.
+    
+    (cherry picked from commit b92884b77a7ec61cda2ed359528567840b663cca)
+
+[33mcommit f1f595fcdea8329994ad028e1fafa359a604c6da[m[33m ([m[1;33mtag: v8.1.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Aug 14 06:55:02 2019 -0700
+
+    8.1.2
+
+[33mcommit d2aa9628b5d18490a26300db6b199f5338e60d0c[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Aug 14 06:54:49 2019 -0700
+
+    rebuild
+
+[33mcommit 200fe4fb59e642c3f398d06c77a0ac4ade69e519[m
+Author: Sébastien Lacoste <contact@graphman.fr>
+Date:   Thu Aug 8 14:44:17 2019 +0200
+
+    Update type to add the new option
+
+[33mcommit 3cf628b321b435064e40bdec42c7c7561150b26d[m
+Author: Sébastien Lacoste <contact@graphman.fr>
+Date:   Thu Aug 8 14:43:19 2019 +0200
+
+    Add option to disable text selection prevention.
+
+[33mcommit 4f25958b33bf1d7857104f3ec680ac29432ab2aa[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jun 28 06:50:07 2019 -0700
+
+    use strict equality
+
+[33mcommit 27c6ca189f4d3f9ecee25c7b7a9c1dc2d4cd2015[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jun 27 20:19:30 2019 -0700
+
+    added a todo
+
+[33mcommit d303fa91cfc53204b28bb89c15c7453c349140ff[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jun 27 19:58:50 2019 -0700
+
+    Rebuilt
+
+[33mcommit c89cedf3523ab8250ed4079d63a316d1382c3823[m
+Merge: b91fee9 d23c282
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Thu Jun 27 19:57:24 2019 -0700
+
+    Merge pull request #106 from rbonomo/support-full-bounds
+    
+    Limit boundary to panzoom contents
+
+[33mcommit b91fee92f31c7682b80f30247fbd782df733e594[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jun 27 19:48:42 2019 -0700
+
+    Ignore nyc_output
+
+[33mcommit 9d5f72f46828696ff5db2bc53f73fc0f230d8da9[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jun 27 19:48:32 2019 -0700
+
+    Updated dependencies
+
+[33mcommit b860ff6f4c50e0a83b9f8867a861a6af19115ab9[m[33m ([m[1;33mtag: v8.1.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jun 21 06:13:19 2019 -0700
+
+    8.1.1
+
+[33mcommit 39e7425534ba63020a64cbf47648a67deeb6e2e4[m
+Merge: 81133e4 9a5e6fc
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Jun 21 06:12:53 2019 -0700
+
+    Merge pull request #111 from tuckergordon/patch-1
+    
+    Change `pinchSpeed` type to `number`
+
+[33mcommit 9a5e6fc7d62fd48102ca1fbbcd269d0b22aade56[m
+Author: tuckergordon <tucker.gordon18@gmail.com>
+Date:   Thu Jun 20 13:10:36 2019 -0400
+
+    Change `pinchSpeed` type to `number`
+
+[33mcommit d23c282a282ec9f5bf848574f3c54acfe12272eb[m
+Author: Ryan Bonomo <rbonomo@mail.csuchico.edu>
+Date:   Wed May 22 21:01:34 2019 -0700
+
+    Limit boundary to panzoom contents
+
+[33mcommit 48cb5b691ac3f4559469955acdad62396624dbd0[m
+Author: Ryan Bonomo <bonomor@arc.losrios.edu>
+Date:   Wed May 22 16:31:33 2019 -0700
+
+    Add "zoomend" Event
+
+[33mcommit 81133e433ed6e504e7ee8df7db094f8836e33dad[m[33m ([m[1;33mtag: v8.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:29:13 2019 -0700
+
+    8.1.0
+
+[33mcommit a1ea9eab47be20af894245cece2f5718161654ef[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:28:50 2019 -0700
+
+    Added getters for min/max zoom
+    
+    Fixes https://github.com/anvaka/panzoom/issues/94
+
+[33mcommit f8ea5fe2461e8d105a6caf79846669f33987bd9b[m[33m ([m[1;33mtag: v8.0.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:14:17 2019 -0700
+
+    8.0.2
+
+[33mcommit ccba318040b3aba17c86c3c68bf61148b14175d5[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:11:25 2019 -0700
+
+    Fixing IE 11
+
+[33mcommit d2e099eca67d477d87174effb23f063ede4b63f6[m[33m ([m[1;33mtag: v8.0.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:04:51 2019 -0700
+
+    8.0.1
+
+[33mcommit 157b42896553da45e703b8921fa9c4a31bdffa72[m
+Merge: 57bb783 ba60aa0
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat May 11 11:04:27 2019 -0700
+
+    Merge pull request #96 from tuckergordon/patch-1
+    
+    Add `pinchSpeed` to PanZoomOptions
+
+[33mcommit ba60aa087ae2f7bf0d6c3cc1c7fa73912e6a173d[m
+Author: tuckergordon <tucker.gordon18@gmail.com>
+Date:   Thu Apr 25 09:02:36 2019 -0400
+
+    Add `pinchSpeed` to PanZoomOptions
+    
+    New `pinchSpeed` option was missing from `index.d.ts`
+
+[33mcommit 57bb78383a371eccea115035d24c631e0e6819bb[m[33m ([m[1;33mtag: v8.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 19 22:17:56 2019 -0700
+
+    8.0.0
+
+[33mcommit 6f5ec4bc7ae07ce7b10c24d282f5ca9dc3e9d3f1[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Apr 19 22:17:41 2019 -0700
+
+    added pinchSpeed
+    
+    So that zoom speed matches the pinching fingers
+
+[33mcommit 1231157ea167a3afe970507d7c3669cef5ad7b64[m[33m ([m[1;33mtag: v7.2.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 17 20:49:51 2019 -0700
+
+    7.2.2
+
+[33mcommit df3ec17ffdb3696c907f4ce07ed40d5044dc71a7[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 17 20:49:43 2019 -0700
+
+    fixing security warning
+
+[33mcommit ad1bccc68d6143ebc53ce0847a32da4e0c635fa4[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 17 20:45:54 2019 -0700
+
+    typo
+
+[33mcommit 454ba8d06005fa3f0d8a2d263320eba49b4ee45f[m[33m ([m[1;33mtag: v7.2.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 15 06:41:04 2019 -0700
+
+    7.2.1
+
+[33mcommit 3a2e194eff028068d7aafc8ded1d2bd1b28b0ff5[m
+Merge: 0f0e049 902633f
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 15 06:40:28 2019 -0700
+
+    Merge pull request #91 from mgenware/patch-1
+    
+    Make options parameter optional
+
+[33mcommit 902633f67f194927df96d05bc51668357908ff9b[m
+Author: Mgen <m@mgenware.com>
+Date:   Mon Apr 15 20:08:02 2019 +0800
+
+    Make options parameter optional
+
+[33mcommit 0f0e04921c95d5ccabf7795d63c0456820405b44[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Apr 10 21:23:38 2019 -0700
+
+    added a demo with buttons
+
+[33mcommit 4453085aca3955472566f91304ba3a38a06ccd7a[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Apr 9 19:42:17 2019 -0700
+
+    alias `npm start` to `npm run build`
+
+[33mcommit f440fe406151313dfd06b7257716f67985abf7a9[m[33m ([m[1;33mtag: v7.2.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 8 18:54:17 2019 -0700
+
+    7.2.0
+
+[33mcommit 27ae86c9f8252a67ebe324be80d8853a7ea911d9[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 8 18:53:59 2019 -0700
+
+    rebuilt
+
+[33mcommit e55741970b1cf7b5d65673466d0ba5099405bb9e[m
+Merge: edc1fa8 7a1d3ee
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 8 18:52:12 2019 -0700
+
+    Merge pull request #85 from bakuzan/master
+    
+    Implements "disableKeyboardInteraction" option
+
+[33mcommit 7a1d3ee54d866d75d505114bc600b5aa69acbaca[m
+Author: bakuzan <imannoyed4days@hotmail.co.uk>
+Date:   Mon Apr 8 09:39:17 2019 +0100
+
+    implements disableKeyboardInteraction option. closes #80
+
+[33mcommit edc1fa82d6ba60c93cf7bbcc20bd90e4edf13588[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Feb 10 01:38:40 2019 -0800
+
+    year
+
+[33mcommit 97b4896227f637b50632c54af66169cf70954c51[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Feb 9 17:51:08 2019 -0800
+
+    Updating deps
+
+[33mcommit a6b08f989c1d22686dd85611d80f8ba1e6e7ec5c[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Dec 22 20:55:13 2018 -0800
+
+    Updated year and link
+
+[33mcommit 92f2bc64a79803c2726fea0a8dc061c201c6333d[m[33m ([m[1;33mtag: v7.1.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 21 19:04:08 2018 -0800
+
+    7.1.2
+
+[33mcommit e1f76de3c1b68b4d6ba3b61146b4c846b94a09c1[m
+Merge: 4929544 2d1f66f
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 21 19:03:53 2018 -0800
+
+    Merge pull request #65 from SantiMA10/master
+    
+    fix(index.d.ts): added some method parameter types
+
+[33mcommit 2d1f66fde5b8e1caf4cc5ab723cdf4ac61cc6370[m
+Author: Santi <santiagomartinagra@gmail.com>
+Date:   Fri Dec 21 20:30:31 2018 +0100
+
+    fix(index.d.ts): added some method parameter types
+
+[33mcommit 492954400ebb4ee1424be856592b7ab4c3b38eb8[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Dec 18 20:59:36 2018 -0800
+
+    Also updated links
+
+[33mcommit 301682fd37f0c2af84690bf423b1443f0dbc7136[m[33m ([m[1;33mtag: v7.1.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Dec 17 22:08:34 2018 -0800
+
+    7.1.1
+
+[33mcommit d91438fbf443e336ae974c37f9efa78b950d24ae[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Dec 17 22:08:28 2018 -0800
+
+    Fixed https://github.com/anvaka/panzoom/issues/64
+    
+    Forgot about the let vs var.
+
+[33mcommit c8952391173a811ccd0bd71f4f1b2aa3cfb3c8b9[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 14 23:29:59 2018 -0800
+
+    updated links
+
+[33mcommit 32d2488bb3e40aaaa74bd502d7ec1651e5c0e959[m[33m ([m[1;33mtag: v7.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 13 20:34:19 2018 -0800
+
+    7.1.0
+
+[33mcommit 6db705fe04ccf2b3bfac6ec2aa0801c14bc10769[m
+Merge: 09d12c0 64a4853
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Thu Dec 13 20:33:55 2018 -0800
+
+    Merge pull request #61 from niekert/master
+    
+    Add TypeScript typings
+
+[33mcommit 64a48533ad7dee1bd5724bbb886733dc303fd3c7[m
+Author: Niek Kruse <niekkruse70@gmail.com>
+Date:   Thu Dec 13 22:12:03 2018 +0100
+
+    Add typescript typings
+
+[33mcommit 09d12c07d10844f9c0fd3ba78ec59d3d32b8540b[m[33m ([m[1;33mtag: v7.0.4[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 7 22:46:20 2018 -0800
+
+    7.0.4
+
+[33mcommit 984c0157db3933e1595a103a5131d0b513a3c423[m
+Merge: 78fc063 5b2052c
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 7 21:43:14 2018 -0800
+
+    Merge pull request #60 from johnrees/patch-1
+    
+    Fix links in README
+
+[33mcommit 5b2052c2188f1544532889e46d179ccbb94b22b6[m
+Author: John Rees <johnrees@users.noreply.github.com>
+Date:   Wed Dec 5 12:35:44 2018 +0000
+
+    Fix links in README
+
+[33mcommit 78fc063adc6923c6334e32c4bc485c3ea7657403[m[33m ([m[1;33mtag: v7.0.3[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 20 00:02:33 2018 -0800
+
+    7.0.3
+
+[33mcommit 824972d8e36a81a83321c44eb9b82c1a918c5ce8[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 20 00:02:17 2018 -0800
+
+    switched to bounding client rect
+
+[33mcommit 044672a6f2471c3e156fa0dcd58977c019f2f7cc[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Nov 16 21:57:50 2018 -0800
+
+    updated lock
+
+[33mcommit 5aebaf48ebfaa134c3f56b3ba3993704f50ce3be[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 16:06:14 2018 -0700
+
+    Update link to jsfiddle
+
+[33mcommit e049a674b023bdf69f3bf6e9828c593f1d0d89ea[m[33m ([m[1;33mtag: v7.0.2[m[33m)[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 16:00:44 2018 -0700
+
+    7.0.2
+
+[33mcommit af6246c26b69b8e639646ef028c87d5b5f32bcb2[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 16:00:35 2018 -0700
+
+    Updted to correct version of uglify-js
+
+[33mcommit 0ca2da53036138f3b19de768ddab247ab04aa3c2[m[33m ([m[1;33mtag: v7.0.1[m[33m)[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 15:57:00 2018 -0700
+
+    7.0.1
+
+[33mcommit 88cfa4be7ea58e39e475b4caad0a334f9a024ef8[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 15:56:49 2018 -0700
+
+    fixing build tools to be part of it
+
+[33mcommit c4e1f2b91963d9a0b268af3cb826ee6e5f575955[m[33m ([m[1;33mtag: v7.0.0[m[33m)[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 15:55:21 2018 -0700
+
+    7.0.0
+
+[33mcommit 95fb398d18339d29701f09b7a484f8d33d25d128[m
+Author: pnaka <anvaka@gmail.com>
+Date:   Sun Oct 28 15:54:41 2018 -0700
+
+    Chaged eventing
+    
+    Moving away from DOM events. Want to make sure this libray can be used
+    in non-dom environments as well.
+
+[33mcommit a1cd37ddc2fc192bdba47d479ad62e76f2779f0a[m[33m ([m[1;33mtag: v6.3.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Oct 27 10:01:41 2018 -0700
+
+    6.3.2
+
+[33mcommit 12157d32cbace6d48060bd0c4b0ba857b53a4924[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Oct 27 10:01:32 2018 -0700
+
+    build to publish
+
+[33mcommit 49dfd05f29aca2082174d03bbf02da080e1cc924[m
+Merge: 9415347 be63b1e
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Oct 27 09:59:48 2018 -0700
+
+    Merge pull request #52 from keegan-lillo/patch-1
+    
+    Cancel smooth scroll on mouse down
+
+[33mcommit be63b1e09a68223af67a148cc3ed054c345fa49f[m
+Author: Keegan Lillo <keegan@lillo.me>
+Date:   Fri Oct 26 23:42:30 2018 -0700
+
+    Stop smooth scroll on touch start
+
+[33mcommit 9c5c09c9d869a8e38ff76b344b3319aae5a3a9c2[m
+Author: Keegan Lillo <keegan@lillo.me>
+Date:   Fri Oct 26 23:29:10 2018 -0700
+
+    Cancel smooth scroll on mouse down
+
+[33mcommit 941534740eed3669c2df1ee871a69e01e4be27a4[m[33m ([m[1;33mtag: v6.3.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 22:50:31 2018 -0700
+
+    6.3.1
+
+[33mcommit 8c3ca9ae5a773bd165e23a490932bbe5a8c45971[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 22:50:22 2018 -0700
+
+    use strict
+    
+    fixes https://github.com/anvaka/panzoom/issues/36
+
+[33mcommit 7131c864635084c89dfccb7894140bfd47fb996f[m[33m ([m[1;33mtag: v6.3.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 22:45:35 2018 -0700
+
+    6.3.0
+
+[33mcommit 543ab1cd339f1e0c58ab9ef3d0e6234c453867e3[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 22:45:28 2018 -0700
+
+    do not prevent default for doubleclick when asked
+    
+    Fixes https://github.com/anvaka/panzoom/issues/46
+
+[33mcommit a8c5492caa31c7651cbf43e0f74ffea116be1feb[m[33m ([m[1;33mtag: v6.2.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 21:54:22 2018 -0700
+
+    6.2.0
+
+[33mcommit f1469905f6fe6424db318d081e5b9d6d84f793ef[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Oct 18 21:54:05 2018 -0700
+
+    Allow clients to disable keyboard events
+    
+    Fixes https://github.com/anvaka/panzoom/issues/45
+
+[33mcommit 98e80c9608461c46b6fe9f56bd78e734f7c1d933[m[33m ([m[1;33mtag: v6.1.4[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Sep 7 20:27:59 2018 -0700
+
+    6.1.4
+
+[33mcommit 0210d20b822663f0823962b240df45d85b19dbf6[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Sep 7 20:27:50 2018 -0700
+
+    updated tap
+
+[33mcommit 2d648901091d7ba6837d2a9fc61fb653cf9eeb9f[m[33m ([m[1;33mtag: v6.1.3[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:55:25 2018 -0700
+
+    6.1.3
+
+[33mcommit c1293925c25b348fe4112016949152fc9642e485[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:55:22 2018 -0700
+
+    use single element
+
+[33mcommit 97f5311de01a0f5af556f472c9a05b4f8874a9ff[m[33m ([m[1;33mtag: v6.1.2[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:52:43 2018 -0700
+
+    6.1.2
+
+[33mcommit 747f5e43a81c6772f98c3675c1b8e795da83ecf7[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:52:39 2018 -0700
+
+    rebuild
+
+[33mcommit 7d1adf9d64e2b610c0a88b09f6c8993cab2d9bdd[m[33m ([m[1;33mtag: v6.1.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:49:40 2018 -0700
+
+    6.1.1
+
+[33mcommit c525c47d804a7d5e058aa645f70460dda8cb8b98[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:49:33 2018 -0700
+
+    more reliable script detection
+
+[33mcommit 159314a884a50cb067db909110a48740d6bfc286[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:30:23 2018 -0700
+
+    Updated the version
+
+[33mcommit ec1aae6b3bdf37372cae23fbc0d4173ebb916d62[m[33m ([m[1;33mtag: v6.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:19:08 2018 -0700
+
+    6.1.0
+
+[33mcommit 711c451facf8c053ee607c7ccb20323308fbf46e[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 11:19:03 2018 -0700
+
+    Attach via script
+
+[33mcommit ccc162b6eb2d2ce3b3b7a1e5ee10a190d49ebd3d[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 10:51:49 2018 -0700
+
+    added pause/resume
+
+[33mcommit a80491a9ff6ee6f061a94c3c2df0bf1356ed5890[m
+Merge: e37d877 0c705cf
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 25 10:17:31 2018 -0700
+
+    Merge pull request #38 from pboutin/master
+    
+    Publicly expose smoothZoom in order to provide an animated alternative to zoomAbs
+
+[33mcommit 0c705cf699b24311608e3733ee26143bead0752f[m
+Author: Pascal Boutin <pboutin@mirego.com>
+Date:   Sat Aug 18 16:49:48 2018 -0400
+
+    Rebuild the dist
+
+[33mcommit 124aa20eebbb34aca042ec457a66845e169ebc10[m
+Author: Pascal Boutin <pboutin@mirego.com>
+Date:   Sat Aug 18 16:23:31 2018 -0400
+
+    Publicly expose smoothZoom in order to provide an animated alternative to zoomAbs
+
+[33mcommit e37d877fe61104d1950fcc8e28a4abdfc1ff4d6c[m[33m ([m[1;33mtag: v6.0.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Aug 16 22:35:34 2018 -0700
+
+    6.0.1
+
+[33mcommit b7be7330986660d7fe8ce17a70540a4b9e8fe59a[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Aug 16 22:35:22 2018 -0700
+
+    updated dependencies. rebuilt
+
+[33mcommit 586b30e49c94ae04ef35ce24ee585867cd32e90e[m[33m ([m[1;33mtag: v6.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Aug 14 00:09:29 2018 -0700
+
+    6.0.0
+
+[33mcommit 36371697cd05633976895e8b0fcc30e37f2c032d[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Aug 14 00:09:11 2018 -0700
+
+    moving away from offsetX
+
+[33mcommit 1adfa2fb5e2a4438fc4e28452763b39f9c232534[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Aug 13 07:39:37 2018 -0700
+
+    added script tag to demo
+
+[33mcommit de831ac0e58ab622cfc0d057bc4a9abc0969271f[m[33m ([m[1;33mtag: v5.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Jul 22 18:02:59 2018 -0700
+
+    5.1.0
+
+[33mcommit f957cd44cd42b55294f2afc24963f1a1a9ed6572[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Jul 22 18:02:48 2018 -0700
+
+    added note about momentum
+
+[33mcommit 158340803363c5e0c375ec9c55b34e87eea95bc2[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Jul 21 20:12:31 2018 -0700
+
+    apply transform for other events
+
+[33mcommit e411a4ebac2f8f582ce9b974528a5f421edc8393[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Jul 19 21:35:50 2018 -0700
+
+    Apply screenCTM when showing rect
+
+[33mcommit 81896e22be833f2bad9113b9de98915b1ef0974a[m[33m ([m[1;33mtag: v5.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jun 22 20:43:46 2018 -0700
+
+    5.0.0
+
+[33mcommit 25511502c301d866a14d7441142202b9ed79126e[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jun 22 20:43:33 2018 -0700
+
+    Use offsetX for mouse wheel
+
+[33mcommit eccf11d13258dc8039b5ccdc2534b28660785f3a[m[33m ([m[1;33mtag: v4.5.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 9 23:21:42 2018 -0700
+
+    4.5.0
+
+[33mcommit bedcae6e37db650d6ecff85e7f7066bb3ed8ddd4[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Apr 9 23:21:20 2018 -0700
+
+    Allow viewBox on SVG
+    
+    Previously, when viewBox attribute was present
+    the zoom focal point was invalid.
+    
+    I added logic to allow controllers initialize
+    transformation matrix according to their needs.
+    
+    This fixes https://github.com/anvaka/panzoom/issues/20
+    and https://github.com/anvaka/panzoom/issues/13
+
+[33mcommit f51ef3ecde995e9567edc503926179db823615b3[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Apr 8 17:06:14 2018 -0700
+
+    Link to travis
+
+[33mcommit 213712eb2e52123d851a928bda70b35389992e7b[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Apr 7 17:13:36 2018 -0700
+
+    Added travis
+
+[33mcommit 2f5602a5d9802ac4a0d595e6acf99fd51c353f25[m[33m ([m[1;33mtag: v4.4.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 22:33:00 2018 -0700
+
+    4.4.0
+
+[33mcommit 8fb41329b1f6f81305eaa5a2e958d42838617600[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 22:32:55 2018 -0700
+
+    Updated build
+
+[33mcommit 56d39aceef4614288aa88b121cab534fc876ab1d[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 22:30:29 2018 -0700
+
+    Covered https://github.com/anvaka/panzoom/issues/26 with tests
+
+[33mcommit 94265acd3926912e7c95e35d5d734e355f793cbe[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 22:08:31 2018 -0700
+
+    Updated package-lock
+
+[33mcommit b46b63ba0690e3246630640c58a2daf4f04c1994[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 22:08:25 2018 -0700
+
+    FIxed a typo
+
+[33mcommit 377924581235d9c35591a8e96db10d039c0312f1[m
+Merge: 3707cf3 4d38c4b
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Mar 23 21:58:52 2018 -0700
+
+    Merge pull request #27 from dotnetCarpenter/fix_#26
+    
+    Fix #26
+
+[33mcommit 4d38c4bb88dc789ee1f3d88749bf688e25796d4f[m
+Author: dotnetCarpenter <jon.ronnenberg@gmail.com>
+Date:   Fri Mar 23 22:10:10 2018 +0100
+
+    remove wheel event listener on correct domElement and not owner (parent element) - fixes #26
+
+[33mcommit 3621f3ef6111df03e1dd743bbd0b5e4c56951a29[m
+Author: dotnetCarpenter <jon.ronnenberg@gmail.com>
+Date:   Fri Mar 23 22:09:32 2018 +0100
+
+    update dependencies
+
+[33mcommit 3707cf3c1e1c19c87d72e8746f9cff89a3a54fbc[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Mar 22 22:08:22 2018 -0700
+
+    added a bug demo with viewBox
+    
+    Currently we need to remove the viewBox attribute. Need to fix this.
+
+[33mcommit 3a233cda035404b0c3001c51ec4730cb098361c4[m[33m ([m[1;33mtag: v4.3.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 21 22:26:05 2018 -0700
+
+    4.3.1
+
+[33mcommit 624b56083d21f5fa4e903d210f1a56d76275fa92[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 21 22:25:43 2018 -0700
+
+    Fixed autocenter for zero area box
+
+[33mcommit 95676729494b6d4257989e1276a6b57ffecd4deb[m[33m ([m[1;33mtag: v4.3.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 21 22:20:33 2018 -0700
+
+    4.3.0
+
+[33mcommit f12d3e61ed847e9510fdcd49420d2ac4d09a3930[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 21 22:20:08 2018 -0700
+
+    Fixed scale ctm
+
+[33mcommit 6b56889c1ad3d53af9253b4555ce2b0d4694b914[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Mar 15 22:22:10 2018 -0700
+
+    Added a simple duck test
+
+[33mcommit 6122165f62813f6b3699f49c6a1a288fbcb2404b[m[33m ([m[1;33mtag: v4.2.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 14 20:39:57 2018 -0700
+
+    4.2.0
+
+[33mcommit 1af492709899b242244b4242322faa8f1278d17b[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Mar 14 20:39:29 2018 -0700
+
+    More control over touch events
+    
+    Fixes https://github.com/anvaka/panzoom/issues/12
+
+[33mcommit 6832ec302bd552e288898f5579eebdbd0ed7f230[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jan 26 21:35:30 2018 -0800
+
+    Careful rectangle checking
+    
+    And custom scale transform.
+
+[33mcommit 12c9cf6427170c10d2480173796a5869ae2aa818[m[33m ([m[1;33mtag: v4.1.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jan 5 19:56:22 2018 -0800
+
+    4.1.0
+
+[33mcommit fe55ec38dd3e23abf4dfe14ab5185ac3657a8305[m[33m ([m[1;33mtag: v4.0.1[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Jan 5 19:56:05 2018 -0800
+
+    4.0.1
+
+[33mcommit 509688cfa900e3ec0f6793e9aa9c347151c93ab6[m
+Merge: 359ec7c 52e15a9
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Jan 5 19:54:46 2018 -0800
+
+    Merge pull request #23 from efeamadasun/master
+    
+    Added Typescript definition file
+
+[33mcommit 52e15a96502a1e9c0261ae6cda6c718aa2dd3ff7[m
+Author: Efe Amadasun <efeamadasun@gmail.com>
+Date:   Fri Jan 5 14:24:17 2018 +0100
+
+    Update return type for createPanZoom
+
+[33mcommit 18f17c0fb740fe558fb30328ec1936f709e187d7[m
+Author: Efe Amadasun <efeamadasun@gmail.com>
+Date:   Fri Jan 5 14:20:05 2018 +0100
+
+    Added Typescript definition file (#1)
+
+[33mcommit 359ec7cfec753daf0511b6e217d2fbbdd3ed8306[m
+Merge: dd6faca 671acb6
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Dec 15 09:36:57 2017 -0800
+
+    Merge pull request #21 from Volcanic-Penguin/patch-1
+    
+    Added Some Documentation!
+
+[33mcommit 671acb62598fbbb564bb002a8c616bc56c063448[m
+Author: Lee Comstock <lee_comstock@hotmail.com>
+Date:   Fri Dec 15 11:33:50 2017 +0100
+
+    Added Some Documentation!
+    
+    All these options, no documentation!
+
+[33mcommit dd6faca3a973ef854eb7cb2893e131b2ecb0f9f5[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 26 15:41:26 2017 -0800
+
+    Updated version
+
+[33mcommit 59ea87ad3baa77294f5e599ae06eca3cd3f0752d[m[33m ([m[1;33mtag: v4.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 26 15:40:15 2017 -0800
+
+    4.0.0
+
+[33mcommit ce907738af900a510104194829ad5b9a95b16fe7[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 26 15:39:29 2017 -0800
+
+    Updated dist files
+
+[33mcommit 8832f12d9fdc3b53242c257e06a1957889cad880[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 26 15:38:55 2017 -0800
+
+    styling
+
+[33mcommit f4c04c1e953ab5d3d56271de44ea84ef37ea63c6[m
+Merge: 59426dc 9e652e5
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sun Nov 26 15:32:35 2017 -0800
+
+    Merge pull request #18 from odai-alali/pinch-zoom
+    
+    Pinch zoom enhacement
+
+[33mcommit 59426dcaba2a9aad1f144896003a08783d892763[m
+Merge: e97074d 7c9edfa
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 14 22:25:36 2017 -0800
+
+    Merge pull request #17 from odai-alali/fix-zoom-limits
+    
+    Adjust ratio on min/maxZoom
+
+[33mcommit e97074dce9da40a75ab468b663fe19db969eeb71[m
+Merge: 78571d3 5cf2146
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Nov 11 20:18:48 2017 -0800
+
+    Merge pull request #16 from odai-alali/minor-fixes
+    
+    fix typos
+
+[33mcommit 9e652e577ce018174d1c889fab6be7cb62ea99a7[m
+Author: odai-alali <odai.alali@gmail.com>
+Date:   Fri Nov 10 18:50:36 2017 +0100
+
+    Enhace pinchzoom
+    
+    It would be better for pinch zoom to be scaled based on the length between
+    fingers only, rather than depending on the speed value.
+    
+    A new option was added **realPinch** defaults to **false**. when true
+    the scale value will be calculated only from the distance between
+    fingers which will give an effect similar to image zoomin on
+    mobile phones.
+
+[33mcommit 0ac0a4a0992715002f4f514dfc49ebf99fa0ba64[m
+Author: odai-alali <odai.alali@gmail.com>
+Date:   Fri Nov 10 18:40:21 2017 +0100
+
+    fix getPinchZoomLength()
+
+[33mcommit 7c9edfa7dba9e82d74fd9abba7b8203d258e6c59[m
+Author: odai-alali <odai.alali@gmail.com>
+Date:   Fri Nov 10 13:22:35 2017 +0100
+
+    Adjust ratio on min/maxZoom
+    
+    in some cases (depending on the zoom step and zoom limits) the min/max
+    zoom value is never reached because the function is returning when the
+    new scale passes the limit.
+    resetting the ratio to reach min/max zoom values solves the issue
+
+[33mcommit 5cf2146d29e32cdf2657ef4047bc7543c906cec7[m
+Author: Odai Alali <alali@informationsgesellschaft.com>
+Date:   Fri Nov 10 11:32:07 2017 +0100
+
+    fix typos
+
+[33mcommit 78571d35d6164924687be4f137e0cb7fc5066fed[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Aug 21 22:27:26 2017 -0700
+
+    DOM: set scrollTop to 0
+    
+    Otherwise it looks incorrect...
+
+[33mcommit 7505ca3649040b63f37fe993eb5b24b47f8251a5[m[33m ([m[1;33mtag: v3.0.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Aug 21 21:38:38 2017 -0700
+
+    3.0.0
+
+[33mcommit 35119c41715364bc6393e6e6b433761d2324881c[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Mon Aug 21 21:38:20 2017 -0700
+
+    Updated documentation
+
+[33mcommit 97a8646d500afc6c662f6186dc8b98a2945e4260[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Aug 16 21:51:19 2017 -0700
+
+    Added method to show rectangle
+
+[33mcommit 11ac760e85f92cdd7dce866c2304caac2c42d4bb[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Aug 16 21:50:47 2017 -0700
+
+    Renamed getRect to getPoint
+    
+    Reflects more accurately what's happening
+
+[33mcommit de76564c338dedc5f4ad1ac4047e338a3469534c[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Aug 15 22:22:52 2017 -0700
+
+    Allow users to configure smooth scrolling
+    
+    if you pass `smoothScroll: false` in options, it will be disabled. You can also pass:
+    
+    ```
+    smoothScroll: {
+      minVelocity: 1,
+      amplitude: 0.2
+    }
+    ```
+    
+    This will configure sensitivity/decay of the smooth scrolling
+
+[33mcommit d85cd66c19ac2e2a380b43b7ebe89008623e147d[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Sat Aug 12 12:03:33 2017 -0700
+
+    Added `autocenter`
+    
+    This allows to initialize transform, so that the scene is centered and scaled to fit the screen
+
+[33mcommit fa4ba62b1a1e892f342a64f0b1c67c8bbd60ac22[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Aug 11 23:11:31 2017 -0700
+
+    Added custom dom controller
+
+[33mcommit 3c17f80579ff4de6b0bf208bbff616e669316ea3[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Fri Aug 11 22:33:15 2017 -0700
+
+    Properly handle bounding box for dom
+
+[33mcommit 5353a903c58eae9a7cc06c2bce98521355bf0a57[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Thu Aug 10 17:18:02 2017 -0700
+
+    Abstracted SVG Element handling
+    
+    Now this works for regular dom elements too
+
+[33mcommit 9be779715507c18cc9c3d918d196f90eeb8ed4cc[m[33m ([m[1;33mtag: v2.6.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Aug 1 13:39:14 2017 -0700
+
+    2.6.0
+
+[33mcommit 075ce0eff287e67db3e3d9346d292394b099ac27[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Aug 1 13:38:56 2017 -0700
+
+    Added transform event
+
+[33mcommit 714028fa6f6e1358d58d7a2566e5219df50c4bbd[m[33m ([m[1;33mtag: v2.5.0[m[33m)[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Dec 28 00:11:27 2016 -0800
+
+    2.5.0
+
+[33mcommit 7fe2b9fe92ba003b124bab49b22eccf826de3866[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Wed Dec 28 00:11:17 2016 -0800
+
+    Fixed IE 11 bug with isNaN
+
+[33mcommit ca44797282b3e457bce46fb98674bf8298e9d6b3[m
+Author: Andriy Kashcha <anvaka@gmail.com>
+Date:   Tue Dec 20 23:10:43 2016 -0800
+
+    Updated version
+
+[33mcommit e0d2339c6d293071671b9dccf0e805c4504a5dd4[m[33m ([m[1;33mtag: v2.4.2[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Nov 18 18:36:50 2016 -0800
+
+    2.4.2
+
+[33mcommit 1ad6ae2164debade2a4c7ba2a6c9d246524ee655[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Nov 18 18:35:43 2016 -0800
+
+    Removed redundant moveTo method
+    
+    Also cleaned up a little bit
+
+[33mcommit af0094e413284322fb29ba17250d8a5fd7e3aa11[m[33m ([m[1;33mtag: v2.4.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 17 22:42:22 2016 -0800
+
+    2.4.1
+
+[33mcommit 500516ca480ade6febf8bdb41367f0d72f6abb8b[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 17 22:42:15 2016 -0800
+
+    rebuild dist files
+
+[33mcommit f61d177d695cc5965b9f616d22c532f87c60c50a[m[33m ([m[1;33mtag: v2.4.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 17 21:18:26 2016 -0800
+
+    2.4.0
+
+[33mcommit e538259dc747759c559d85bd397e5ff2b6873456[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 17 21:18:14 2016 -0800
+
+    added moveTo function
+
+[33mcommit 6e5ade68848bd8471138694210f63577587117da[m[33m ([m[1;33mtag: v2.3.2[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 15 20:10:05 2016 -0800
+
+    2.3.2
+
+[33mcommit c0a80284172af953f31284bdb1505998335ef922[m
+Merge: 6640680 6e38ebe
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Tue Nov 15 20:09:47 2016 -0800
+
+    Merge pull request #3 from razzinteractive/master
+    
+    validateBounds fixes
+
+[33mcommit 6e38ebe752bd09f74f58266d57ec96574f55be8c[m
+Author: MKRazz <MKRazz@users.noreply.github.com>
+Date:   Tue Nov 15 15:23:07 2016 -0500
+
+    Fixed variable name
+    
+    It was checking boundsValid instead of validBounds.
+
+[33mcommit 7f0f351278a83d3412079928154124148b079c45[m
+Author: MKRazz <MKRazz@users.noreply.github.com>
+Date:   Tue Nov 15 15:10:19 2016 -0500
+
+    validateBounds checks top twice and not bottom
+
+[33mcommit 6640680ff673b9a7d827198a5f8500f25e6a2c50[m[33m ([m[1;33mtag: v2.3.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 8 08:14:33 2016 -0800
+
+    2.3.1
+
+[33mcommit 0f0f42c50546379e48fb3dc28780d9d07c610f78[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 8 08:14:18 2016 -0800
+
+    Trigger zoom event from one place
+
+[33mcommit 5391b31f816ac0d36bcd718712457fc2ba5f8894[m[33m ([m[1;33mtag: v2.3.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 8 07:46:48 2016 -0800
+
+    2.3.0
+
+[33mcommit c80138ad3494729f08a4494d762182ae8fbe3b8a[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 8 07:46:29 2016 -0800
+
+    Exposed double tap zoom speed
+
+[33mcommit 0a8e8fd5ba97fc033c902e1eb976843cd009e058[m[33m ([m[1;33mtag: v2.2.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Nov 6 21:10:56 2016 -0800
+
+    2.2.1
+
+[33mcommit 2fe57129c86112aeafc5f82da0b05fa994e749f9[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Nov 6 21:10:52 2016 -0800
+
+    Fixed option name for bounds padding
+
+[33mcommit ab78dc64f6a488c393f68c79c07d64e489a71598[m[33m ([m[1;33mtag: v2.2.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Nov 6 21:01:49 2016 -0800
+
+    2.2.0
+
+[33mcommit 34e603787361bde83184bacc626b3d6c39a79167[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Nov 6 21:01:30 2016 -0800
+
+    Added pan/zoom contraints
+
+[33mcommit 4cfe9bb895cdc66582a1ce25ca58e7c90573ce61[m[33m ([m[1;33mtag: v2.1.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Nov 4 08:22:32 2016 -0700
+
+    2.1.0
+
+[33mcommit 6c896fa6e7a04d16702585209715c02ed74be864[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Nov 4 08:22:04 2016 -0700
+
+    trigger pan even even for non-smooth scrolling
+    
+    Also bubble
+
+[33mcommit bfdfefc085d6da2d3fa203770594bfffa17876c8[m[33m ([m[1;33mtag: v2.0.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 3 08:06:02 2016 -0700
+
+    2.0.0
+
+[33mcommit ca5dd6d14d994a3ee288256fa35466ae5204f1a7[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Nov 3 08:05:53 2016 -0700
+
+    Expose transform
+
+[33mcommit ee1bd61e23c4296b0091d5c9a69536533c1bb86a[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Wed Nov 2 21:39:41 2016 -0700
+
+    Use in-memory transform and apply it inside RAF
+
+[33mcommit 417dd71ec93a6075e462a1f76408ba97d52e9bc0[m[33m ([m[1;33mtag: v1.4.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 1 22:59:09 2016 -0700
+
+    1.4.0
+
+[33mcommit 6947b9d70f821d71fbf05c1c72f5ee33f3d49c5e[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 1 22:58:49 2016 -0700
+
+    added 'pan' event
+
+[33mcommit 11ccf4dec55934c4b25096417812a749b24317d2[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 1 22:45:53 2016 -0700
+
+    Added double tap/click for zoom in
+
+[33mcommit 13ec520164b64cd67516b446d69438962ede1843[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Nov 1 20:42:11 2016 -0700
+
+    Extracted text selection into own file
+
+[33mcommit 94a5f3a16d0c57c84daca8b29417a28e4c55ad37[m[33m ([m[1;33mtag: v1.3.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:46:00 2016 -0700
+
+    1.3.1
+
+[33mcommit c35e218a92302f1bb95b842fc66f56401e9ce042[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:45:56 2016 -0700
+
+    updated version
+
+[33mcommit 19c10053dd9a16f898a8f6ebc9726d126ff55ef6[m
+Merge: 64bb7cc e4f6f34
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:45:34 2016 -0700
+
+    Merge branch 'master' of github.com:anvaka/panzoom
+
+[33mcommit 64bb7cc6b5a583dcdb8008cad40fbf2e7c8f2d0b[m[33m ([m[1;33mtag: v1.3.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:44:26 2016 -0700
+
+    1.3.0
+
+[33mcommit e81b5044c8481850dbff49f82a10fb7d1b75307c[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:40:20 2016 -0700
+
+    Expose tranform matrix after zoom
+
+[33mcommit 4fd08e646210f8e4bc3a9df48acf19555156ece0[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Mon Oct 31 19:31:07 2016 -0700
+
+    Added keyboard support
+
+[33mcommit e4f6f3435ae695f83048b44261fcd6734a5c77b4[m
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Fri Oct 21 20:42:10 2016 -0700
+
+    updated link to cdn
+
+[33mcommit dc6fd3efe76ca3a57eb5700dbb80abd2a4162dcc[m[33m ([m[1;33mtag: v1.2.4[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Oct 21 06:35:25 2016 -0700
+
+    1.2.4
+
+[33mcommit 90e3641109413742e24b85bd4d5a3db97ec892b4[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Oct 21 06:35:18 2016 -0700
+
+    Rebuilding dist files
+
+[33mcommit 7d38b7e0eb8b20eeb3a15441c45e1e2f9438711f[m[33m ([m[1;33mtag: v1.2.3[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Oct 21 06:19:01 2016 -0700
+
+    1.2.3
+
+[33mcommit f9248de7fba6162901f733e8ab19c999c986363c[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Oct 21 06:18:47 2016 -0700
+
+    Improved pinch zoom
+    
+    We used to ignore a case when two fingers touch screen at the same time.
+    Also removed smooth scroll animation after zoom events.
+
+[33mcommit d2815019c73eca4c9e99eea3cafe75e9fdcc0b82[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Oct 20 21:25:32 2016 -0700
+
+    Exposed zoomTo
+
+[33mcommit d3bd9773e3d561c215a497fc76108c1328e7e5ca[m[33m ([m[1;33mtag: v1.2.2[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Jul 22 22:31:04 2016 -0700
+
+    1.2.2
+
+[33mcommit f76daf3b0beaed220b8dfede50b0745ce5908fa1[m
+Merge: e81908f 1511f29
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Jul 22 22:30:58 2016 -0700
+
+    Merge branch 'master' of github.com:anvaka/panzoom
+
+[33mcommit e81908fc341c414a2a3fc5b56cb923149d18d400[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Jul 22 22:30:52 2016 -0700
+
+    Added zoom speed
+
+[33mcommit 1511f290e7e811aef4339f0ddca6353fa8954e2c[m
+Author: Andrei Kashcha <anvaka@gmail.com>
+Date:   Sat Apr 16 18:17:54 2016 -0700
+
+    updated link to cdn
+
+[33mcommit dd6f1d66e320ff2c8599638289a840dfafe35339[m[33m ([m[1;33mtag: v1.2.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 16 10:49:21 2016 -0700
+
+    1.2.1
+
+[33mcommit 1b017fcb8d3ae61c12ad7c9a68cfe1e2b535ba56[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 16 10:49:09 2016 -0700
+
+    Added documentation for `beforeFilter`
+    
+    Fixes https://github.com/anvaka/panzoom/issues/1
+
+[33mcommit 102cf4a9c412a063639822dc0ad3cdd11ecd0fed[m[33m ([m[1;33mtag: v1.2.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 16 10:42:31 2016 -0700
+
+    1.2.0
+
+[33mcommit ced3e7c3072c36063913cb0a93e1d0cf4425ac56[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 16 10:41:29 2016 -0700
+
+    Added beforeWheel filter
+
+[33mcommit 924feb904134a063898ee50944cc69c19b6735bf[m[33m ([m[1;33mtag: v1.1.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 9 13:43:01 2016 -0700
+
+    1.1.0
+
+[33mcommit 77c793733309365a8a0fd55157945c54699d23e5[m[33m ([m[1;33mtag: v1.0.1[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 9 13:42:35 2016 -0700
+
+    1.0.1
+
+[33mcommit 256435e302c5da812d9cf38ec089451d146fc1a7[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sat Apr 9 13:42:15 2016 -0700
+
+    Using cubic bezier as default animation
+
+[33mcommit f63d49d19f403cce1be9bba3fc12158660c572e9[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Fri Apr 8 22:43:14 2016 -0700
+
+    Drafted focusOn function
+    
+    It's all hardcoded at the moment, still not releasing this yet
+
+[33mcommit b8d4df4360db50ef06425407f43c8158d38e223c[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Thu Apr 7 22:23:45 2016 -0700
+
+    Exposed moveBy
+    
+    I'll slowly expose more. Just not sure about API yet
+
+[33mcommit d57395120d8b8adff5344341127682f8b7820d8d[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Wed Apr 6 22:07:44 2016 -0700
+
+    Added panstart/panend event description
+
+[33mcommit bf20696c2d8dae0ec1d703ff7d778da3e7c94377[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Tue Apr 5 18:57:32 2016 -0700
+
+    Added dispose info
+
+[33mcommit 7ac64af66674fab273e3ab40542f7cae928aa686[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Apr 3 12:27:46 2016 -0700
+
+    Added tiger
+
+[33mcommit ccd1de939f9ef1ba2edcd0c210b3f415e02723df[m[33m ([m[1;33mtag: v1.0.0[m[33m)[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Apr 3 12:09:36 2016 -0700
+
+    Added jsfiddle link
+
+[33mcommit aa9694befa7aa9df2a8f9c752127c214a8d5d81b[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Apr 3 12:05:33 2016 -0700
+
+    Typos
+
+[33mcommit 30a4dda60290cadf172721808ee8c7b35b0d5d44[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Apr 3 12:02:54 2016 -0700
+
+    First commit
+
+[33mcommit d233b0c4b28b519187a670aa10fb0fc54df9d058[m
+Author: anvaka <anvaka@gmail.com>
+Date:   Sun Apr 3 11:15:22 2016 -0700
+
+    Initial commit
