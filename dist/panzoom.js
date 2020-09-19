@@ -113,6 +113,7 @@ function createPanZoom(domElement, options) {
     dispose: dispose,
     moveBy: internalMoveBy,
     moveTo: moveTo,
+    smoothMoveTo: smoothMoveTo, 
     centerOn: centerOn,
     zoomTo: publicZoomTo,
     zoomAbs: zoomAbs,
@@ -431,6 +432,10 @@ function createPanZoom(domElement, options) {
     internalMoveBy(dx, dy, true);
   }
 
+  function smoothMoveTo(x, y){
+    internalMoveBy(x - transform.x, y - transform.y, true)
+  }
+  
   function internalMoveBy(dx, dy, smooth) {
     if (!smooth) {
       return moveBy(dx, dy);
